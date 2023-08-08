@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imagens/console.png" type="image/x-icon">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Jokenpô</h1>
+            <h2>Divirta-se!</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-jogo">
+            <h2 class="title-options">Escolha uma das figuras</h2>
+            <div class="images">
+                <img id="pedra" onclick="rock()" src="./imagens/pedra.png" alt="Pedra">
+                <img id="papel" onclick="paper()" src="./imagens/papel.png" alt="Papel">
+                <img id="tesoura" onclick="scissors()" src="./imagens/tesoura.png" alt="Tesoura">
+            </div>
+            <div class="aviso">Resultado...</div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
