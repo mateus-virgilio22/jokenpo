@@ -1,10 +1,6 @@
 let pedra = document.getElementById('pedra');
 let papel = document.getElementById('papel');
-let tesoura = document.getElementById('tesoura')
-
-pedra.addEventListener('click', pedra);
-papel.addEventListener('click', papel);
-tesoura.addEventListener('click', tesoura);
+let tesoura = document.getElementById('tesoura');
 
 function rock() {
     let res = document.querySelector('.aviso');
